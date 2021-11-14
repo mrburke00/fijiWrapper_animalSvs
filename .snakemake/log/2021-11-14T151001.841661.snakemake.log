@@ -1,0 +1,67 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Provided resources: disk_mb=700000
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+AllCall               1              1              1
+ExcludeRegions        1              1              1
+GapRegions            1             16             16
+GetData               1              1              1
+GetHighCov            1              1              1
+GetReference          1              1              1
+Mosdepth              1              1              1
+SmooveCall            1              1              1
+SmooveMerge           1              1              1
+total                 9              1             16
+
+Select jobs to execute...
+
+[Sun Nov 14 15:10:15 2021]
+rule GetReference:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/get_reference.log
+    jobid: 2
+    resources: tmpdir=/tmp
+
+
+[Sun Nov 14 15:10:15 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240178/HG00234.final.get_data.log
+    jobid: 4
+    wildcards: sample=ERR3240178/HG00234.final
+    resources: tmpdir=/tmp, disk_mb=18541
+Downstream jobs will be updated after completion.
+
+[Sun Nov 14 15:11:22 2021]
+Finished job 2.
+1 of 9 steps (11%) done
+Select jobs to execute...
+[Sun Nov 14 15:13:26 2021]
+Finished job 4.
+2 of 9 steps (22%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+
+[Sun Nov 14 15:13:26 2021]
+rule GapRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed
+    jobid: 6
+    priority: 2
+    threads: 16
+    resources: tmpdir=/tmp
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/c6e4c93014a7b9665befbcb33e1d3642
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 224 of /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_pipe/src/multisample.smk:
+Job Missing files after 5 seconds:
+/scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 6 completed successfully, but some output files are missing. 6
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /scratch/Shares/layer/workspace/devin_sra/sv_step/.snakemake/log/2021-11-14T151001.841661.snakemake.log

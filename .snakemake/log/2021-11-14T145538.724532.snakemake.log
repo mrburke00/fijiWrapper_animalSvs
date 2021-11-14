@@ -1,0 +1,374 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Provided resources: disk_mb=700000
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+AllCall               1              1              1
+ExcludeRegions       58              1              1
+GapRegions            1             16             16
+GetData              58              1              1
+GetHighCov           58              1              1
+GetReference          1              1              1
+Mosdepth             58              1              1
+SmooveCall           58              1              1
+SmooveMerge           1              1              1
+total               294              1             16
+
+Select jobs to execute...
+
+[Sun Nov 14 14:55:59 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241764/HG01055.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241764/HG01055.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241764/HG01055.final.get_data.log
+    jobid: 140
+    wildcards: sample=ERR3241764/HG01055.final
+    resources: tmpdir=/tmp, disk_mb=15517
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:55:59 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3243018/HG02691.final.get_data.log
+    jobid: 275
+    wildcards: sample=ERR3243018/HG02691.final
+    resources: tmpdir=/tmp, disk_mb=19080
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:55:59 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240160/HG00171.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240160/HG00171.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240160/HG00171.final.get_data.log
+    jobid: 95
+    wildcards: sample=ERR3240160/HG00171.final
+    resources: tmpdir=/tmp, disk_mb=18627
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:55:59 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239918/NA19711.final.get_data.log
+    jobid: 80
+    wildcards: sample=ERR3239918/NA19711.final
+    resources: tmpdir=/tmp, disk_mb=15103
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:55:59 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239908/NA19678.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239908/NA19678.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239908/NA19678.final.get_data.log
+    jobid: 65
+    wildcards: sample=ERR3239908/NA19678.final
+    resources: tmpdir=/tmp, disk_mb=22163
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:55:59 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239484/NA12778.final.get_data.log
+    jobid: 20
+    wildcards: sample=ERR3239484/NA12778.final
+    resources: tmpdir=/tmp, disk_mb=14652
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:55:59 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239684/NA19019.final.get_data.log
+    jobid: 35
+    wildcards: sample=ERR3239684/NA19019.final
+    resources: tmpdir=/tmp, disk_mb=17614
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:55:59 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241841/HG01168.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241841/HG01168.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241841/HG01168.final.get_data.log
+    jobid: 155
+    wildcards: sample=ERR3241841/HG01168.final
+    resources: tmpdir=/tmp, disk_mb=15174
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:56:00 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241978/HG01700.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241978/HG01700.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241978/HG01700.final.get_data.log
+    jobid: 170
+    wildcards: sample=ERR3241978/HG01700.final
+    resources: tmpdir=/tmp, disk_mb=15428
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:56:00 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242242/HG02272.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242242/HG02272.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242242/HG02272.final.get_data.log
+    jobid: 215
+    wildcards: sample=ERR3242242/HG02272.final
+    resources: tmpdir=/tmp, disk_mb=17464
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:56:00 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240205/HG00239.final.get_data.log
+    jobid: 110
+    wildcards: sample=ERR3240205/HG00239.final
+    resources: tmpdir=/tmp, disk_mb=17758
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:56:00 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241670/HG00421.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241670/HG00421.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241670/HG00421.final.get_data.log
+    jobid: 125
+    wildcards: sample=ERR3241670/HG00421.final
+    resources: tmpdir=/tmp, disk_mb=16362
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:56:00 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239967/NA19909.final.get_data.log
+    jobid: 85
+    wildcards: sample=ERR3239967/NA19909.final
+    resources: tmpdir=/tmp, disk_mb=15704
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:56:00 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239909/NA19679.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239909/NA19679.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239909/NA19679.final.get_data.log
+    jobid: 70
+    wildcards: sample=ERR3239909/NA19679.final
+    resources: tmpdir=/tmp, disk_mb=16081
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:56:00 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239322/NA12761.final.get_data.log
+    jobid: 4
+    wildcards: sample=ERR3239322/NA12761.final
+    resources: tmpdir=/tmp, disk_mb=16154
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 14:56:00 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242666/HG03644.final.get_data.log
+    jobid: 245
+    wildcards: sample=ERR3242666/HG03644.final
+    resources: tmpdir=/tmp, disk_mb=16169
+Downstream jobs will be updated after completion.
+
+[Sun Nov 14 14:56:02 2021]
+[Sun Nov 14 14:56:02 2021]
+Error in rule GetData:
+[Sun Nov 14 14:56:02 2021]
+Error in rule GetData:
+    jobid: 125
+Error in rule GetData:
+    jobid: 20
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241670/HG00421.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241670/HG00421.final.cram.crai
+    jobid: 140
+[Sun Nov 14 14:56:02 2021]
+Error in rule GetData:
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241670/HG00421.final.get_data.log (check log file(s) for error message)
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241764/HG01055.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241764/HG01055.final.cram.crai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.crai
+    jobid: 155
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3241670/HG00421.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241670/HG00421.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241670/HG00421.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3241670/HG00421.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241670/HG00421.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241670/HG00421.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241764/HG01055.final.get_data.log (check log file(s) for error message)
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239484/NA12778.final.get_data.log (check log file(s) for error message)
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241841/HG01168.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241841/HG01168.final.cram.crai
+
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3241764/HG01055.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241764/HG01055.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241764/HG01055.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3241764/HG01055.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241764/HG01055.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241764/HG01055.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Sun Nov 14 14:56:02 2021]
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239484/NA12778.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239484/NA12778.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239484/NA12778.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239484/NA12778.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Sun Nov 14 14:56:02 2021]
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241841/HG01168.final.get_data.log (check log file(s) for error message)
+
+Error in rule GetData:
+
+Error in rule GetData:
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3241841/HG01168.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241841/HG01168.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241841/HG01168.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3241841/HG01168.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241841/HG01168.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241841/HG01168.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Sun Nov 14 14:56:02 2021]
+[Sun Nov 14 14:56:02 2021]
+    jobid: 65
+    jobid: 170
+
+[Sun Nov 14 14:56:02 2021]
+Error in rule GetData:
+Error in rule GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239908/NA19678.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239908/NA19678.final.cram.crai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241978/HG01700.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241978/HG01700.final.cram.crai
+[Sun Nov 14 14:56:02 2021]
+Error in rule GetData:
+    jobid: 215
+    jobid: 275
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239908/NA19678.final.get_data.log (check log file(s) for error message)
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241978/HG01700.final.get_data.log (check log file(s) for error message)
+[Sun Nov 14 14:56:02 2021]
+Error in rule GetData:
+[Sun Nov 14 14:56:02 2021]
+    jobid: 110
+[Sun Nov 14 14:56:02 2021]
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242242/HG02272.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242242/HG02272.final.cram.crai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram.crai
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239908/NA19678.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239908/NA19678.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239908/NA19678.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239908/NA19678.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239908/NA19678.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239908/NA19678.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Sun Nov 14 14:56:02 2021]
+[Sun Nov 14 14:56:02 2021]
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3241978/HG01700.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241978/HG01700.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241978/HG01700.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3241978/HG01700.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241978/HG01700.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241978/HG01700.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Error in rule GetData:
+    jobid: 70
+Error in rule GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.crai
+Error in rule GetData:
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242242/HG02272.final.get_data.log (check log file(s) for error message)
+[Sun Nov 14 14:56:02 2021]
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3243018/HG02691.final.get_data.log (check log file(s) for error message)
+
+Error in rule GetData:
+Error in rule GetData:
+
+    jobid: 95
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239909/NA19679.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239909/NA19679.final.cram.crai
+    jobid: 85
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240205/HG00239.final.get_data.log (check log file(s) for error message)
+    jobid: 35
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3242242/HG02272.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242242/HG02272.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242242/HG02272.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3242242/HG02272.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242242/HG02272.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242242/HG02272.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Error in rule GetData:
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3243018/HG02691.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3243018/HG02691.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3243018/HG02691.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3243018/HG02691.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    jobid: 4
+    jobid: 80
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240160/HG00171.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240160/HG00171.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239909/NA19679.final.get_data.log (check log file(s) for error message)
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram.crai
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3240205/HG00239.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240205/HG00239.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3240205/HG00239.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240205/HG00239.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.crai
+
+    jobid: 245
+
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.crai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240160/HG00171.final.get_data.log (check log file(s) for error message)
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239909/NA19679.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239909/NA19679.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239909/NA19679.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239909/NA19679.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239909/NA19679.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239909/NA19679.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Terminating processes on user request, this might take some time.
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239967/NA19909.final.get_data.log (check log file(s) for error message)
+
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239684/NA19019.final.get_data.log (check log file(s) for error message)
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239322/NA12761.final.get_data.log (check log file(s) for error message)
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239918/NA19711.final.get_data.log (check log file(s) for error message)
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3240160/HG00171.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240160/HG00171.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240160/HG00171.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3240160/HG00171.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240160/HG00171.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240160/HG00171.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239967/NA19909.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239967/NA19909.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239967/NA19909.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239967/NA19909.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239684/NA19019.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239684/NA19019.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239684/NA19019.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239684/NA19019.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242666/HG03644.final.get_data.log (check log file(s) for error message)
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239322/NA12761.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239322/NA12761.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239322/NA12761.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239322/NA12761.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239918/NA19711.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239918/NA19711.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3239918/NA19711.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239918/NA19711.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+
+    shell:
+        
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3242666/HG03644.final.bam /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram  2> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242666/HG03644.final.get_data.log
+        aws s3 cp s3://1000genomes/1000G_2504_high_coverage/data/ERR3242666/HG03644.final.bam.bai /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.crai 2>> /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242666/HG03644.final.get_data.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+
+Cancelling snakemake on user request.

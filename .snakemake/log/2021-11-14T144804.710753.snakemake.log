@@ -1,0 +1,2 @@
+SyntaxError in line 89 of /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_pipe/src/multisample.smk:
+Unexpected keyword bam in rule definition (multisample.smk, line 89)

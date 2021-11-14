@@ -1,0 +1,214 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Provided resources: disk_mb=700000
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+AllGenotype           1              1              1
+GetData               5              1              1
+GetReference          1              1              1
+SmooveGenotype        5              1              1
+SmoovePaste           1              1              1
+total                13              1              1
+
+Select jobs to execute...
+
+[Sat Nov 13 10:59:51 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted.bam.bai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/log/SRR11780525.sorted.get_data.log
+    jobid: 6
+    wildcards: sample=SRR11780525.sorted
+    resources: tmpdir=/tmp, disk_mb=19424
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 10:59:52 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted.bam.bai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/log/SRR4040040.sorted.get_data.log
+    jobid: 10
+    wildcards: sample=SRR4040040.sorted
+    resources: tmpdir=/tmp, disk_mb=7541
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 10:59:52 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted.bam.bai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/log/SRR11780527.sorted.get_data.log
+    jobid: 8
+    wildcards: sample=SRR11780527.sorted
+    resources: tmpdir=/tmp, disk_mb=16842
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 10:59:52 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted.bam.bai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/log/SRR11777081.sorted.get_data.log
+    jobid: 3
+    wildcards: sample=SRR11777081.sorted
+    resources: tmpdir=/tmp, disk_mb=28539
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 10:59:52 2021]
+rule GetReference:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa.fai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/log/get_reference.log
+    jobid: 4
+    resources: tmpdir=/tmp
+
+
+[Sat Nov 13 10:59:52 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted.bam.bai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/log/SRR4041813_2.sorted.get_data.log
+    jobid: 12
+    wildcards: sample=SRR4041813_2.sorted
+    resources: tmpdir=/tmp, disk_mb=2550
+Downstream jobs will be updated after completion.
+
+[Sat Nov 13 11:01:58 2021]
+Finished job 4.
+1 of 13 steps (8%) done
+[Sat Nov 13 11:03:22 2021]
+Finished job 12.
+2 of 13 steps (15%) done
+Updating job SmooveGenotype.
+Select jobs to execute...
+
+[Sat Nov 13 11:03:22 2021]
+rule SmooveGenotype:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted.bam.bai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/merged.sites.vcf.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted/SRR4041813_2.sorted-smoove.genotyped.vcf.gz
+    jobid: 11
+    wildcards: sample=SRR4041813_2.sorted
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=2550
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+[Sat Nov 13 11:05:30 2021]
+Finished job 10.
+3 of 13 steps (23%) done
+Updating job SmooveGenotype.
+Select jobs to execute...
+
+[Sat Nov 13 11:05:31 2021]
+rule SmooveGenotype:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted.bam.bai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/merged.sites.vcf.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted/SRR4040040.sorted-smoove.genotyped.vcf.gz
+    jobid: 9
+    wildcards: sample=SRR4040040.sorted
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=7541
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+[Sat Nov 13 11:09:12 2021]
+Finished job 8.
+4 of 13 steps (31%) done
+Updating job SmooveGenotype.
+Select jobs to execute...
+
+[Sat Nov 13 11:09:12 2021]
+rule SmooveGenotype:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted.bam.bai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/merged.sites.vcf.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted/SRR11780527.sorted-smoove.genotyped.vcf.gz
+    jobid: 7
+    wildcards: sample=SRR11780527.sorted
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=16842
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+[Sat Nov 13 11:09:38 2021]
+Finished job 6.
+5 of 13 steps (38%) done
+Updating job SmooveGenotype.
+Select jobs to execute...
+
+[Sat Nov 13 11:09:39 2021]
+rule SmooveGenotype:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted.bam.bai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/merged.sites.vcf.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted/SRR11780525.sorted-smoove.genotyped.vcf.gz
+    jobid: 5
+    wildcards: sample=SRR11780525.sorted
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=19424
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+[Sat Nov 13 11:10:52 2021]
+Finished job 3.
+6 of 13 steps (46%) done
+Updating job SmooveGenotype.
+Select jobs to execute...
+
+[Sat Nov 13 11:10:52 2021]
+rule SmooveGenotype:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted.bam, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted.bam.bai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/merged.sites.vcf.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted/SRR11777081.sorted-smoove.genotyped.vcf.gz
+    jobid: 2
+    wildcards: sample=SRR11777081.sorted
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=28539
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted.bam.bai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted.bam.
+[Sat Nov 13 13:14:28 2021]
+Finished job 11.
+7 of 13 steps (54%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted.bam.bai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted.bam.
+[Sat Nov 13 13:36:20 2021]
+Finished job 9.
+8 of 13 steps (62%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted.bam.bai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted.bam.
+[Sat Nov 13 14:34:38 2021]
+Finished job 7.
+9 of 13 steps (69%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted.bam.bai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted.bam.
+[Sat Nov 13 14:53:18 2021]
+Finished job 5.
+10 of 13 steps (77%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted.bam.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted.bam.bai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/ref/ref.fa.fai.
+[Sat Nov 13 15:26:51 2021]
+Finished job 2.
+11 of 13 steps (85%) done
+Select jobs to execute...
+
+[Sat Nov 13 15:26:51 2021]
+rule SmoovePaste:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted/SRR11777081.sorted-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted/SRR11780525.sorted-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted/SRR11780527.sorted-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted/SRR4040040.sorted-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted/SRR4041813_2.sorted-smoove.genotyped.vcf.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/sites.smoove.square.vcf.gz
+    jobid: 1
+    resources: tmpdir=/tmp
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4041813_2.sorted/SRR4041813_2.sorted-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR4040040.sorted/SRR4040040.sorted-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780527.sorted/SRR11780527.sorted-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11780525.sorted/SRR11780525.sorted-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/SRR11777081.sorted/SRR11777081.sorted-smoove.genotyped.vcf.gz.
+[Sat Nov 13 15:32:09 2021]
+Finished job 1.
+12 of 13 steps (92%) done
+Select jobs to execute...
+
+[Sat Nov 13 15:32:09 2021]
+localrule AllGenotype:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/sites.smoove.square.vcf.gz
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Sat Nov 13 15:32:09 2021]
+Finished job 0.
+13 of 13 steps (100%) done
+Complete log: /scratch/Shares/layer/workspace/devin_sra/sv_step/.snakemake/log/2021-11-13T105945.784835.snakemake.log

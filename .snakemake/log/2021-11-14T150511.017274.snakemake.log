@@ -1,0 +1,2 @@
+SyntaxError in line 106 of /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_pipe/src/multisample.smk:
+EOF in multi-line statement (multisample.smk, line 106)

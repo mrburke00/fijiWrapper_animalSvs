@@ -12,6 +12,8 @@
 pwd; hostname; date
 
 
-aws s3 sync sv_results/data/ s3://layerlabcu/sra/horseshoe_bat/
+#aws s3 sync sv_results/data/ s3://layerlabcu/sra/horseshoe_bat/
+
+aws s3 cp horseshoe_bat_sites.smoove.square.vcf.gz s3://layerlabcu/sra/vcf/
 
 date

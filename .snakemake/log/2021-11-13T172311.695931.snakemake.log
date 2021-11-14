@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 207 of /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_pipe/src/multisample.smk:
+Missing input files for rule Mosdepth:
+/scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.crai

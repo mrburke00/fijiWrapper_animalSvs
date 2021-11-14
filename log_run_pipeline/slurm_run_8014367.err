@@ -1,0 +1,194 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Provided resources: disk_mb=700000
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+AllCall               1              1              1
+ExcludeRegions       58              1              1
+GapRegions            1             16             16
+GetData              58              1              1
+GetHighCov           58              1              1
+Mosdepth             58              1              1
+SmooveCall           58              1              1
+SmooveMerge           1              1              1
+total               293              1             16
+
+Select jobs to execute...
+
+[Sun Nov 14 15:19:50 2021]
+rule GapRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed
+    jobid: 6
+    priority: 2
+    threads: 16
+    resources: tmpdir=/tmp
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/c6e4c93014a7b9665befbcb33e1d3642
+[Sun Nov 14 15:21:48 2021]
+Finished job 6.
+1 of 293 steps (0.3%) done
+Select jobs to execute...
+
+[Sun Nov 14 15:21:48 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241764/HG01055.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241764/HG01055.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241764/HG01055.final.get_data.log
+    jobid: 140
+    wildcards: sample=ERR3241764/HG01055.final
+    resources: tmpdir=/tmp, disk_mb=15517
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:48 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239684/NA19019.final.get_data.log
+    jobid: 35
+    wildcards: sample=ERR3239684/NA19019.final
+    resources: tmpdir=/tmp, disk_mb=17614
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:48 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240205/HG00239.final.get_data.log
+    jobid: 110
+    wildcards: sample=ERR3240205/HG00239.final
+    resources: tmpdir=/tmp, disk_mb=17758
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239918/NA19711.final.get_data.log
+    jobid: 80
+    wildcards: sample=ERR3239918/NA19711.final
+    resources: tmpdir=/tmp, disk_mb=15103
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241841/HG01168.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241841/HG01168.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241841/HG01168.final.get_data.log
+    jobid: 155
+    wildcards: sample=ERR3241841/HG01168.final
+    resources: tmpdir=/tmp, disk_mb=15174
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241978/HG01700.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241978/HG01700.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241978/HG01700.final.get_data.log
+    jobid: 170
+    wildcards: sample=ERR3241978/HG01700.final
+    resources: tmpdir=/tmp, disk_mb=15428
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242198/HG02010.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242198/HG02010.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242198/HG02010.final.get_data.log
+    jobid: 200
+    wildcards: sample=ERR3242198/HG02010.final
+    resources: tmpdir=/tmp, disk_mb=14140
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242242/HG02272.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242242/HG02272.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242242/HG02272.final.get_data.log
+    jobid: 215
+    wildcards: sample=ERR3242242/HG02272.final
+    resources: tmpdir=/tmp, disk_mb=17464
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242666/HG03644.final.get_data.log
+    jobid: 245
+    wildcards: sample=ERR3242666/HG03644.final
+    resources: tmpdir=/tmp, disk_mb=16169
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243117/HG04060.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243117/HG04060.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3243117/HG04060.final.get_data.log
+    jobid: 290
+    wildcards: sample=ERR3243117/HG04060.final
+    resources: tmpdir=/tmp, disk_mb=21635
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239484/NA12778.final.get_data.log
+    jobid: 20
+    wildcards: sample=ERR3239484/NA12778.final
+    resources: tmpdir=/tmp, disk_mb=14652
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239885/NA20819.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239885/NA20819.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239885/NA20819.final.get_data.log
+    jobid: 50
+    wildcards: sample=ERR3239885/NA20819.final
+    resources: tmpdir=/tmp, disk_mb=14512
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241767/HG01079.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241767/HG01079.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241767/HG01079.final.get_data.log
+    jobid: 145
+    wildcards: sample=ERR3241767/HG01079.final
+    resources: tmpdir=/tmp, disk_mb=15169
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242722/HG03874.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242722/HG03874.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242722/HG03874.final.get_data.log
+    jobid: 250
+    wildcards: sample=ERR3242722/HG03874.final
+    resources: tmpdir=/tmp, disk_mb=16920
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239322/NA12761.final.get_data.log
+    jobid: 4
+    wildcards: sample=ERR3239322/NA12761.final
+    resources: tmpdir=/tmp, disk_mb=16154
+Downstream jobs will be updated after completion.
+
+
+[Sun Nov 14 15:21:49 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239475/NA12348.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239475/NA12348.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239475/NA12348.final.get_data.log
+    jobid: 10
+    wildcards: sample=ERR3239475/NA12348.final
+    resources: tmpdir=/tmp, disk_mb=15352
+Downstream jobs will be updated after completion.
+

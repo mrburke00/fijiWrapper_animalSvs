@@ -1,0 +1,1231 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Provided resources: disk_mb=700000
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+AllCall               1              1              1
+ExcludeRegions       15              1              1
+GapRegions            1             16             16
+GetData              15              1              1
+GetHighCov           15              1              1
+Mosdepth             15              1              1
+SmooveCall           15              1              1
+SmooveMerge           1              1              1
+total                78              1             16
+
+Select jobs to execute...
+
+[Sat Nov 13 20:59:03 2021]
+rule GapRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed
+    jobid: 6
+    priority: 2
+    threads: 16
+    resources: tmpdir=/tmp
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/c6e4c93014a7b9665befbcb33e1d3642
+[Sat Nov 13 21:01:19 2021]
+Finished job 6.
+1 of 78 steps (1%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:01:19 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239484/NA12778.final.get_data.log
+    jobid: 10
+    wildcards: sample=ERR3239484/NA12778.final
+    resources: tmpdir=/tmp, disk_mb=14652
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:19 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239322/NA12761.final.get_data.log
+    jobid: 4
+    wildcards: sample=ERR3239322/NA12761.final
+    resources: tmpdir=/tmp, disk_mb=16154
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:19 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242666/HG03644.final.get_data.log
+    jobid: 70
+    wildcards: sample=ERR3242666/HG03644.final
+    resources: tmpdir=/tmp, disk_mb=16169
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:19 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240170/HG00183.final.get_data.log
+    jobid: 40
+    wildcards: sample=ERR3240170/HG00183.final
+    resources: tmpdir=/tmp, disk_mb=15020
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:19 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239806/NA20524.final.get_data.log
+    jobid: 25
+    wildcards: sample=ERR3239806/NA20524.final
+    resources: tmpdir=/tmp, disk_mb=16604
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:19 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241682/HG00479.final.get_data.log
+    jobid: 55
+    wildcards: sample=ERR3241682/HG00479.final
+    resources: tmpdir=/tmp, disk_mb=15422
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:19 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3242089/HG01864.final.get_data.log
+    jobid: 65
+    wildcards: sample=ERR3242089/HG01864.final
+    resources: tmpdir=/tmp, disk_mb=16646
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:19 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239768/NA19451.final.get_data.log
+    jobid: 20
+    wildcards: sample=ERR3239768/NA19451.final
+    resources: tmpdir=/tmp, disk_mb=16208
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:20 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239967/NA19909.final.get_data.log
+    jobid: 35
+    wildcards: sample=ERR3239967/NA19909.final
+    resources: tmpdir=/tmp, disk_mb=15704
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:20 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239918/NA19711.final.get_data.log
+    jobid: 30
+    wildcards: sample=ERR3239918/NA19711.final
+    resources: tmpdir=/tmp, disk_mb=15103
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:20 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240178/HG00234.final.get_data.log
+    jobid: 45
+    wildcards: sample=ERR3240178/HG00234.final
+    resources: tmpdir=/tmp, disk_mb=18541
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:20 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3243018/HG02691.final.get_data.log
+    jobid: 75
+    wildcards: sample=ERR3243018/HG02691.final
+    resources: tmpdir=/tmp, disk_mb=19080
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:20 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3240205/HG00239.final.get_data.log
+    jobid: 50
+    wildcards: sample=ERR3240205/HG00239.final
+    resources: tmpdir=/tmp, disk_mb=17758
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:20 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3239684/NA19019.final.get_data.log
+    jobid: 15
+    wildcards: sample=ERR3239684/NA19019.final
+    resources: tmpdir=/tmp, disk_mb=17614
+Downstream jobs will be updated after completion.
+
+
+[Sat Nov 13 21:01:20 2021]
+checkpoint GetData:
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final.cram.crai
+    log: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/log/ERR3241980/HG01704.final.get_data.log
+    jobid: 60
+    wildcards: sample=ERR3241980/HG01704.final
+    resources: tmpdir=/tmp, disk_mb=15278
+Downstream jobs will be updated after completion.
+
+[Sat Nov 13 21:30:25 2021]
+Finished job 10.
+2 of 78 steps (3%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:30:25 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.regions.bed.gz
+    jobid: 13
+    wildcards: sample=ERR3239484/NA12778.final
+    resources: tmpdir=/tmp, disk_mb=14652
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:31:52 2021]
+Finished job 40.
+3 of 78 steps (4%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:31:53 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.regions.bed.gz
+    jobid: 43
+    wildcards: sample=ERR3240170/HG00183.final
+    resources: tmpdir=/tmp, disk_mb=15020
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:32:54 2021]
+Finished job 55.
+4 of 78 steps (5%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:32:55 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.regions.bed.gz
+    jobid: 58
+    wildcards: sample=ERR3241682/HG00479.final
+    resources: tmpdir=/tmp, disk_mb=15422
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:33:05 2021]
+Finished job 4.
+5 of 78 steps (6%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:33:06 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.regions.bed.gz
+    jobid: 8
+    wildcards: sample=ERR3239322/NA12761.final
+    resources: tmpdir=/tmp, disk_mb=16154
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:33:23 2021]
+Finished job 30.
+6 of 78 steps (8%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:33:24 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.regions.bed.gz
+    jobid: 33
+    wildcards: sample=ERR3239918/NA19711.final
+    resources: tmpdir=/tmp, disk_mb=15103
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:33:54 2021]
+Finished job 60.
+7 of 78 steps (9%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:33:55 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.regions.bed.gz
+    jobid: 63
+    wildcards: sample=ERR3241980/HG01704.final
+    resources: tmpdir=/tmp, disk_mb=15278
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:34:25 2021]
+Finished job 20.
+8 of 78 steps (10%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:34:26 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.regions.bed.gz
+    jobid: 23
+    wildcards: sample=ERR3239768/NA19451.final
+    resources: tmpdir=/tmp, disk_mb=16208
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:34:38 2021]
+Finished job 25.
+9 of 78 steps (12%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:34:39 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.regions.bed.gz
+    jobid: 28
+    wildcards: sample=ERR3239806/NA20524.final
+    resources: tmpdir=/tmp, disk_mb=16604
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:34:49 2021]
+Finished job 70.
+10 of 78 steps (13%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:34:51 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.regions.bed.gz
+    jobid: 73
+    wildcards: sample=ERR3242666/HG03644.final
+    resources: tmpdir=/tmp, disk_mb=16169
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:35:24 2021]
+Finished job 35.
+11 of 78 steps (14%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:35:25 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.regions.bed.gz
+    jobid: 38
+    wildcards: sample=ERR3239967/NA19909.final
+    resources: tmpdir=/tmp, disk_mb=15704
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:35:50 2021]
+Finished job 15.
+12 of 78 steps (15%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:35:52 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.regions.bed.gz
+    jobid: 18
+    wildcards: sample=ERR3239684/NA19019.final
+    resources: tmpdir=/tmp, disk_mb=17614
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:35:55 2021]
+Finished job 65.
+13 of 78 steps (17%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:35:56 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.regions.bed.gz
+    jobid: 68
+    wildcards: sample=ERR3242089/HG01864.final
+    resources: tmpdir=/tmp, disk_mb=16646
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:35:57 2021]
+Finished job 45.
+14 of 78 steps (18%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:35:58 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.regions.bed.gz
+    jobid: 48
+    wildcards: sample=ERR3240178/HG00234.final
+    resources: tmpdir=/tmp, disk_mb=18541
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:36:00 2021]
+Finished job 50.
+15 of 78 steps (19%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:36:02 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.regions.bed.gz
+    jobid: 53
+    wildcards: sample=ERR3240205/HG00239.final
+    resources: tmpdir=/tmp, disk_mb=17758
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+[Sat Nov 13 21:36:08 2021]
+Finished job 75.
+16 of 78 steps (21%) done
+Updating job Mosdepth.
+Updating job SmooveCall.
+Select jobs to execute...
+
+[Sat Nov 13 21:36:09 2021]
+rule Mosdepth:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.mosdepth.global.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.mosdepth.summary.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.mosdepth.region.dist.txt, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.regions.bed.gz
+    jobid: 78
+    wildcards: sample=ERR3243018/HG02691.final
+    resources: tmpdir=/tmp, disk_mb=19080
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/fb54a7b50dbaf69849f828725b17b631
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:39:22 2021]
+Finished job 13.
+17 of 78 steps (22%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:39:22 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.high_cov.bed
+    jobid: 12
+    wildcards: sample=ERR3239484/NA12778.final
+    resources: tmpdir=/tmp, disk_mb=14652
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.regions.bed.gz.
+[Sat Nov 13 21:40:10 2021]
+Finished job 12.
+18 of 78 steps (23%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:40:10 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.exclude.bed
+    jobid: 11
+    wildcards: sample=ERR3239484/NA12778.final
+    resources: tmpdir=/tmp, disk_mb=14652
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:40:11 2021]
+Finished job 11.
+19 of 78 steps (24%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:40:11 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final-smoove.genotyped.vcf.gz
+    jobid: 9
+    wildcards: sample=ERR3239484/NA12778.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=14652
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:41:35 2021]
+Finished job 43.
+20 of 78 steps (26%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:41:35 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.high_cov.bed
+    jobid: 42
+    wildcards: sample=ERR3240170/HG00183.final
+    resources: tmpdir=/tmp, disk_mb=15020
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.regions.bed.gz.
+[Sat Nov 13 21:42:12 2021]
+Finished job 42.
+21 of 78 steps (27%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:42:12 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.exclude.bed
+    jobid: 41
+    wildcards: sample=ERR3240170/HG00183.final
+    resources: tmpdir=/tmp, disk_mb=15020
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:42:13 2021]
+Finished job 41.
+22 of 78 steps (28%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:42:13 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final-smoove.genotyped.vcf.gz
+    jobid: 39
+    wildcards: sample=ERR3240170/HG00183.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=15020
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:43:00 2021]
+Finished job 58.
+23 of 78 steps (29%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:43:00 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.high_cov.bed
+    jobid: 57
+    wildcards: sample=ERR3241682/HG00479.final
+    resources: tmpdir=/tmp, disk_mb=15422
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:43:28 2021]
+Finished job 33.
+24 of 78 steps (31%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:43:28 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.high_cov.bed
+    jobid: 32
+    wildcards: sample=ERR3239918/NA19711.final
+    resources: tmpdir=/tmp, disk_mb=15103
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.regions.bed.gz.
+[Sat Nov 13 21:43:39 2021]
+Finished job 57.
+25 of 78 steps (32%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:43:39 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.exclude.bed
+    jobid: 56
+    wildcards: sample=ERR3241682/HG00479.final
+    resources: tmpdir=/tmp, disk_mb=15422
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:43:40 2021]
+Finished job 56.
+26 of 78 steps (33%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:43:40 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final-smoove.genotyped.vcf.gz
+    jobid: 54
+    wildcards: sample=ERR3241682/HG00479.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=15422
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:43:40 2021]
+Finished job 8.
+27 of 78 steps (35%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:43:40 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.high_cov.bed
+    jobid: 7
+    wildcards: sample=ERR3239322/NA12761.final
+    resources: tmpdir=/tmp, disk_mb=16154
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.regions.bed.gz.
+[Sat Nov 13 21:44:08 2021]
+Finished job 32.
+28 of 78 steps (36%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:44:08 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.exclude.bed
+    jobid: 31
+    wildcards: sample=ERR3239918/NA19711.final
+    resources: tmpdir=/tmp, disk_mb=15103
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:44:08 2021]
+Finished job 31.
+29 of 78 steps (37%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:44:08 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final-smoove.genotyped.vcf.gz
+    jobid: 29
+    wildcards: sample=ERR3239918/NA19711.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=15103
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:44:18 2021]
+Finished job 63.
+30 of 78 steps (38%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:44:18 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.high_cov.bed
+    jobid: 62
+    wildcards: sample=ERR3241980/HG01704.final
+    resources: tmpdir=/tmp, disk_mb=15278
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.regions.bed.gz.
+[Sat Nov 13 21:44:22 2021]
+Finished job 7.
+31 of 78 steps (40%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:44:22 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.exclude.bed
+    jobid: 5
+    wildcards: sample=ERR3239322/NA12761.final
+    resources: tmpdir=/tmp, disk_mb=16154
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:44:23 2021]
+Finished job 5.
+32 of 78 steps (41%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:44:23 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final-smoove.genotyped.vcf.gz
+    jobid: 3
+    wildcards: sample=ERR3239322/NA12761.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=16154
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.regions.bed.gz.
+[Sat Nov 13 21:45:00 2021]
+Finished job 62.
+33 of 78 steps (42%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:45:00 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.exclude.bed
+    jobid: 61
+    wildcards: sample=ERR3241980/HG01704.final
+    resources: tmpdir=/tmp, disk_mb=15278
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:45:01 2021]
+Finished job 61.
+34 of 78 steps (44%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:45:01 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final-smoove.genotyped.vcf.gz
+    jobid: 59
+    wildcards: sample=ERR3241980/HG01704.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=15278
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:45:22 2021]
+Finished job 73.
+35 of 78 steps (45%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:45:22 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.high_cov.bed
+    jobid: 72
+    wildcards: sample=ERR3242666/HG03644.final
+    resources: tmpdir=/tmp, disk_mb=16169
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:45:25 2021]
+Finished job 23.
+36 of 78 steps (46%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:45:25 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.high_cov.bed
+    jobid: 22
+    wildcards: sample=ERR3239768/NA19451.final
+    resources: tmpdir=/tmp, disk_mb=16208
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:45:55 2021]
+Finished job 28.
+37 of 78 steps (47%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:45:55 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.high_cov.bed
+    jobid: 27
+    wildcards: sample=ERR3239806/NA20524.final
+    resources: tmpdir=/tmp, disk_mb=16604
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.regions.bed.gz.
+[Sat Nov 13 21:46:01 2021]
+Finished job 72.
+38 of 78 steps (49%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:46:01 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.exclude.bed
+    jobid: 71
+    wildcards: sample=ERR3242666/HG03644.final
+    resources: tmpdir=/tmp, disk_mb=16169
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:46:02 2021]
+Finished job 71.
+39 of 78 steps (50%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:46:02 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final-smoove.genotyped.vcf.gz
+    jobid: 69
+    wildcards: sample=ERR3242666/HG03644.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=16169
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.regions.bed.gz.
+[Sat Nov 13 21:46:06 2021]
+Finished job 22.
+40 of 78 steps (51%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:46:06 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.exclude.bed
+    jobid: 21
+    wildcards: sample=ERR3239768/NA19451.final
+    resources: tmpdir=/tmp, disk_mb=16208
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:46:07 2021]
+Finished job 21.
+41 of 78 steps (53%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:46:07 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final-smoove.genotyped.vcf.gz
+    jobid: 19
+    wildcards: sample=ERR3239768/NA19451.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=16208
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.regions.bed.gz.
+[Sat Nov 13 21:46:37 2021]
+Finished job 27.
+42 of 78 steps (54%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:46:37 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.exclude.bed
+    jobid: 26
+    wildcards: sample=ERR3239806/NA20524.final
+    resources: tmpdir=/tmp, disk_mb=16604
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:46:38 2021]
+Finished job 26.
+43 of 78 steps (55%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:46:38 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final-smoove.genotyped.vcf.gz
+    jobid: 24
+    wildcards: sample=ERR3239806/NA20524.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=16604
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:47:02 2021]
+Finished job 38.
+44 of 78 steps (56%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:47:02 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.high_cov.bed
+    jobid: 37
+    wildcards: sample=ERR3239967/NA19909.final
+    resources: tmpdir=/tmp, disk_mb=15704
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:47:15 2021]
+Finished job 68.
+45 of 78 steps (58%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:47:15 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.high_cov.bed
+    jobid: 67
+    wildcards: sample=ERR3242089/HG01864.final
+    resources: tmpdir=/tmp, disk_mb=16646
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:47:27 2021]
+Finished job 18.
+46 of 78 steps (59%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:47:27 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.high_cov.bed
+    jobid: 17
+    wildcards: sample=ERR3239684/NA19019.final
+    resources: tmpdir=/tmp, disk_mb=17614
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.regions.bed.gz.
+[Sat Nov 13 21:47:43 2021]
+Finished job 37.
+47 of 78 steps (60%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:47:43 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.exclude.bed
+    jobid: 36
+    wildcards: sample=ERR3239967/NA19909.final
+    resources: tmpdir=/tmp, disk_mb=15704
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:47:43 2021]
+Finished job 36.
+48 of 78 steps (62%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:47:43 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final-smoove.genotyped.vcf.gz
+    jobid: 34
+    wildcards: sample=ERR3239967/NA19909.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=15704
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:47:50 2021]
+Finished job 53.
+49 of 78 steps (63%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:47:50 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.high_cov.bed
+    jobid: 52
+    wildcards: sample=ERR3240205/HG00239.final
+    resources: tmpdir=/tmp, disk_mb=17758
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:47:56 2021]
+Finished job 48.
+50 of 78 steps (64%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:47:56 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.high_cov.bed
+    jobid: 47
+    wildcards: sample=ERR3240178/HG00234.final
+    resources: tmpdir=/tmp, disk_mb=18541
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.regions.bed.gz.
+[Sat Nov 13 21:47:59 2021]
+Finished job 67.
+51 of 78 steps (65%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:47:59 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.exclude.bed
+    jobid: 66
+    wildcards: sample=ERR3242089/HG01864.final
+    resources: tmpdir=/tmp, disk_mb=16646
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:48:00 2021]
+Finished job 66.
+52 of 78 steps (67%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:00 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final-smoove.genotyped.vcf.gz
+    jobid: 64
+    wildcards: sample=ERR3242089/HG01864.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=16646
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.mosdepth.global.dist.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.mosdepth.summary.txt.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.mosdepth.region.dist.txt.
+[Sat Nov 13 21:48:02 2021]
+Finished job 78.
+53 of 78 steps (68%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:02 2021]
+rule GetHighCov:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.regions.bed.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.high_cov.bed
+    jobid: 77
+    wildcards: sample=ERR3243018/HG02691.final
+    resources: tmpdir=/tmp, disk_mb=19080
+
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.regions.bed.gz.
+[Sat Nov 13 21:48:06 2021]
+Finished job 17.
+54 of 78 steps (69%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:07 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.exclude.bed
+    jobid: 16
+    wildcards: sample=ERR3239684/NA19019.final
+    resources: tmpdir=/tmp, disk_mb=17614
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:48:07 2021]
+Finished job 16.
+55 of 78 steps (71%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:07 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final-smoove.genotyped.vcf.gz
+    jobid: 14
+    wildcards: sample=ERR3239684/NA19019.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=17614
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.regions.bed.gz.
+[Sat Nov 13 21:48:32 2021]
+Finished job 52.
+56 of 78 steps (72%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:32 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.exclude.bed
+    jobid: 51
+    wildcards: sample=ERR3240205/HG00239.final
+    resources: tmpdir=/tmp, disk_mb=17758
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:48:33 2021]
+Finished job 51.
+57 of 78 steps (73%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:33 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final-smoove.genotyped.vcf.gz
+    jobid: 49
+    wildcards: sample=ERR3240205/HG00239.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=17758
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.regions.bed.gz.
+[Sat Nov 13 21:48:43 2021]
+Finished job 77.
+58 of 78 steps (74%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:43 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.exclude.bed
+    jobid: 76
+    wildcards: sample=ERR3243018/HG02691.final
+    resources: tmpdir=/tmp, disk_mb=19080
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.regions.bed.gz.
+[Sat Nov 13 21:48:43 2021]
+Finished job 47.
+59 of 78 steps (76%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:43 2021]
+rule ExcludeRegions:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/gap_regions.bed, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.high_cov.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.exclude.bed
+    jobid: 46
+    wildcards: sample=ERR3240178/HG00234.final
+    resources: tmpdir=/tmp, disk_mb=18541
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/d3c944d02f501ed13d3c162abc46ab2e
+[Sat Nov 13 21:48:44 2021]
+Finished job 76.
+60 of 78 steps (77%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:44 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final-smoove.genotyped.vcf.gz
+    jobid: 74
+    wildcards: sample=ERR3243018/HG02691.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=19080
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+[Sat Nov 13 21:48:44 2021]
+Finished job 46.
+61 of 78 steps (78%) done
+Select jobs to execute...
+
+[Sat Nov 13 21:48:44 2021]
+rule SmooveCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram.crai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final.exclude.bed
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final-smoove.genotyped.vcf.gz
+    jobid: 44
+    wildcards: sample=ERR3240178/HG00234.final
+    priority: 1
+    resources: tmpdir=/tmp, disk_mb=18541
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final.cram.crai.
+[Sat Nov 13 22:26:14 2021]
+Finished job 54.
+62 of 78 steps (79%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final.cram.crai.
+[Sat Nov 13 22:28:38 2021]
+Finished job 39.
+63 of 78 steps (81%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.crai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final.cram.
+[Sat Nov 13 22:28:54 2021]
+Finished job 9.
+64 of 78 steps (82%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.crai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final.cram.
+[Sat Nov 13 22:30:26 2021]
+Finished job 69.
+65 of 78 steps (83%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final.cram.crai.
+[Sat Nov 13 22:32:40 2021]
+Finished job 59.
+66 of 78 steps (85%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final.cram.crai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final.cram.
+[Sat Nov 13 22:33:09 2021]
+Finished job 19.
+67 of 78 steps (86%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.crai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final.cram.
+[Sat Nov 13 22:33:34 2021]
+Finished job 29.
+68 of 78 steps (87%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final.cram.crai.
+[Sat Nov 13 22:35:29 2021]
+Finished job 34.
+69 of 78 steps (88%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final.cram.crai.
+[Sat Nov 13 22:35:47 2021]
+Finished job 3.
+70 of 78 steps (90%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final.cram.crai.
+[Sat Nov 13 22:36:50 2021]
+Finished job 49.
+71 of 78 steps (91%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final.cram.crai.
+[Sat Nov 13 22:37:10 2021]
+Finished job 24.
+72 of 78 steps (92%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final.cram.crai.
+[Sat Nov 13 22:39:08 2021]
+Finished job 64.
+73 of 78 steps (94%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final.cram.crai.
+[Sat Nov 13 22:39:47 2021]
+Finished job 44.
+74 of 78 steps (95%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final.cram.crai.
+[Sat Nov 13 22:41:51 2021]
+Finished job 74.
+75 of 78 steps (96%) done
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.crai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final.cram.
+[Sat Nov 13 22:42:20 2021]
+Finished job 14.
+76 of 78 steps (97%) done
+Select jobs to execute...
+
+[Sat Nov 13 22:42:21 2021]
+rule SmooveMerge:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final-smoove.genotyped.vcf.gz, /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final-smoove.genotyped.vcf.gz
+    output: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/merged.sites.vcf.gz
+    jobid: 1
+    resources: tmpdir=/tmp
+
+Activating conda environment: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/snakemake-conda/2569facf81f9a8b701f5dc78534d4ddf
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.fai.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/data/human/ref/ref.fa.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239484/NA12778.final/ERR3239484/NA12778.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240170/HG00183.final/ERR3240170/HG00183.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241682/HG00479.final/ERR3241682/HG00479.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239322/NA12761.final/ERR3239322/NA12761.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239918/NA19711.final/ERR3239918/NA19711.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3241980/HG01704.final/ERR3241980/HG01704.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239768/NA19451.final/ERR3239768/NA19451.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239806/NA20524.final/ERR3239806/NA20524.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242666/HG03644.final/ERR3242666/HG03644.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239967/NA19909.final/ERR3239967/NA19909.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3239684/NA19019.final/ERR3239684/NA19019.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3242089/HG01864.final/ERR3242089/HG01864.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240178/HG00234.final/ERR3240178/HG00234.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3240205/HG00239.final/ERR3240205/HG00239.final-smoove.genotyped.vcf.gz.
+Removing temporary output file /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/ERR3243018/HG02691.final/ERR3243018/HG02691.final-smoove.genotyped.vcf.gz.
+[Sat Nov 13 22:47:09 2021]
+Finished job 1.
+77 of 78 steps (99%) done
+Select jobs to execute...
+
+[Sat Nov 13 22:47:09 2021]
+localrule AllCall:
+    input: /scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/human/data/merged.sites.vcf.gz
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Sat Nov 13 22:47:09 2021]
+Finished job 0.
+78 of 78 steps (100%) done
+Complete log: /scratch/Shares/layer/workspace/devin_sra/sv_step/.snakemake/log/2021-11-13T205844.637170.snakemake.log
