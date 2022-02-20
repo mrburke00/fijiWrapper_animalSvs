@@ -1,0 +1,32 @@
+2022-02-19T18:17:55 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-02-19T18:17:55 prefetch.2.11.2: 1) Downloading 'SRR13786946'...
+2022-02-19T18:17:55 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-02-19T18:17:55 prefetch.2.11.2:  Downloading via HTTPS...
+2022-02-19T18:30:00 prefetch.2.11.2:  HTTPS download succeed
+2022-02-19T18:34:55 prefetch.2.11.2:  'SRR13786946' is valid
+2022-02-19T18:34:55 prefetch.2.11.2: 1) 'SRR13786946' was downloaded successfully
+2022-02-19T18:34:55 prefetch.2.11.2: 'SRR13786946' has 0 unresolved dependencies
+[bam_sort_core] merging from 208 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/SRR13786946.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/SRR13786946_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/SRR13786946_2.fastq’: No such file or directory
+2022-02-20T05:54:07 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-02-20T05:54:07 prefetch.2.11.2: 1) Downloading 'SRR13786947'...
+2022-02-20T05:54:07 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-02-20T05:54:07 prefetch.2.11.2:  Downloading via HTTPS...
+2022-02-20T06:06:05 prefetch.2.11.2:  HTTPS download succeed
+2022-02-20T06:11:04 prefetch.2.11.2:  'SRR13786947' is valid
+2022-02-20T06:11:04 prefetch.2.11.2: 1) 'SRR13786947' was downloaded successfully
+2022-02-20T06:11:04 prefetch.2.11.2: 'SRR13786947' has 0 unresolved dependencies
+[bam_sort_core] merging from 208 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/SRR13786947.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/SRR13786947_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/SRR13786947_2.fastq’: No such file or directory
+2022-02-20T17:00:40 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-02-20T17:00:41 prefetch.2.11.2: 1) Downloading 'SRR13786949'...
+2022-02-20T17:00:41 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-02-20T17:00:41 prefetch.2.11.2:  Downloading via HTTPS...
+2022-02-20T17:11:24 prefetch.2.11.2:  HTTPS download succeed
+2022-02-20T17:15:28 prefetch.2.11.2:  'SRR13786949' is valid
+2022-02-20T17:15:28 prefetch.2.11.2: 1) 'SRR13786949' was downloaded successfully
+2022-02-20T17:15:28 prefetch.2.11.2: 'SRR13786949' has 0 unresolved dependencies

@@ -4,7 +4,7 @@
 #SBATCH --mail-type=ALL # Mail events (NONE, BEGIN, END, FAIL, ALL)
 #SBATCH --mail-user=debu7497@colorado.edu
 #SBATCH --nodes=1 # Only use a single node
-#SBATCH --ntasks=16 # Run on a single CPU
+#SBATCH --ntasks=12 # Run on a single CPU
 #SBATCH --mem=32gb # Memory limit
 #SBATCH --time=23:59:00 # Time limit hrs:min:sec
 #SBATCH --output=/scratch/Shares/layer/workspace/devin_sra/sv_step/log_run_pipeline/slurm_run_%j.out # Standard output and error log
@@ -12,9 +12,8 @@
 pwd; hostname; date
 
 
-bash run_pipeline.sh
-
-
+#bash run_pipeline.sh
+bash check_bams.sh
 sleep 20
 date
 
