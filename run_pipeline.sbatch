@@ -13,7 +13,9 @@ pwd; hostname; date
 
 
 #bash run_pipeline.sh
-bash check_bams.sh
+#bash check_bams.sh
+#snakemake -s sv_pipe/src/get_reference.smk --cores 12
+snakemake -s sv_pipe/src/sra_align.smk --cores 12
 sleep 20
 date
 
