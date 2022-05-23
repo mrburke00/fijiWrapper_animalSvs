@@ -1,0 +1,109 @@
+2022-04-24T17:59:46 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-04-24T17:59:46 prefetch.2.11.2: 1) Downloading 'ERR4351295'...
+2022-04-24T17:59:46 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-04-24T17:59:46 prefetch.2.11.2:  Downloading via HTTPS...
+2022-04-24T18:54:38 prefetch.2.11.2:  HTTPS download succeed
+2022-04-24T18:54:38 prefetch.2.11.2:   verifying 'ERR4351295'...
+2022-04-24T18:56:55 prefetch.2.11.2:  'ERR4351295' is valid
+2022-04-24T18:56:55 prefetch.2.11.2: 1) 'ERR4351295' was downloaded successfully
+2022-04-24T18:56:55 prefetch.2.11.2: 'ERR4351295' has 0 unresolved dependencies
+[bam_sort_core] merging from 192 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/ERR4351295.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351295_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351295_2.fastq’: No such file or directory
+2022-04-25T00:05:19 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-04-25T00:05:19 prefetch.2.11.2: 1) Downloading 'ERR4351410'...
+2022-04-25T00:05:19 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-04-25T00:05:19 prefetch.2.11.2:  Downloading via HTTPS...
+2022-04-25T00:13:55 prefetch.2.11.2:  HTTPS download succeed
+2022-04-25T00:13:55 prefetch.2.11.2:   verifying 'ERR4351410'...
+2022-04-25T00:16:54 prefetch.2.11.2:  'ERR4351410' is valid
+2022-04-25T00:16:54 prefetch.2.11.2: 1) 'ERR4351410' was downloaded successfully
+2022-04-25T00:16:54 prefetch.2.11.2: 'ERR4351410' has 0 unresolved dependencies
+[bam_sort_core] merging from 176 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/ERR4351410.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351410_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351410_2.fastq’: No such file or directory
+2022-04-25T05:40:13 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+Failed to call external services.
+samtools sort: failed to read header from "ERR4351470.bam"
+[E::hts_open_format] Failed to open file "ERR4351470.sorted.bam" : No such file or directory
+samtools index: failed to open "ERR4351470.sorted.bam": No such file or directory
+rm: cannot remove ‘data/bams/ERR4351470.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351470_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351470_2.fastq’: No such file or directory
+rm: cannot remove ‘ERR4351470’: No such file or directory
+2022-04-25T05:40:23 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-04-25T05:40:23 prefetch.2.11.2: 1) Downloading 'ERR4351497'...
+2022-04-25T05:40:23 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-04-25T05:40:23 prefetch.2.11.2:  Downloading via HTTPS...
+2022-04-25T05:49:49 prefetch.2.11.2:  HTTPS download succeed
+2022-04-25T05:49:49 prefetch.2.11.2:   verifying 'ERR4351497'...
+2022-04-25T05:52:40 prefetch.2.11.2:  'ERR4351497' is valid
+2022-04-25T05:52:40 prefetch.2.11.2: 1) 'ERR4351497' was downloaded successfully
+2022-04-25T05:52:40 prefetch.2.11.2: 'ERR4351497' has 0 unresolved dependencies
+[bam_sort_core] merging from 224 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/ERR4351497.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351497_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351497_2.fastq’: No such file or directory
+2022-04-25T12:31:45 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-04-25T12:31:45 prefetch.2.11.2: 1) Downloading 'ERR4351517'...
+2022-04-25T12:31:45 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-04-25T12:31:45 prefetch.2.11.2:  Downloading via HTTPS...
+2022-04-25T12:44:45 prefetch.2.11.2:  HTTPS download succeed
+2022-04-25T12:44:45 prefetch.2.11.2:   verifying 'ERR4351517'...
+2022-04-25T12:48:10 prefetch.2.11.2:  'ERR4351517' is valid
+2022-04-25T12:48:10 prefetch.2.11.2: 1) 'ERR4351517' was downloaded successfully
+2022-04-25T12:48:10 prefetch.2.11.2: 'ERR4351517' has 0 unresolved dependencies
+[bam_sort_core] merging from 256 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/ERR4351517.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351517_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4351517_2.fastq’: No such file or directory
+2022-04-25T19:46:13 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-04-25T19:46:14 prefetch.2.11.2: 1) Downloading 'SRR12532408'...
+2022-04-25T19:46:14 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-04-25T19:46:14 prefetch.2.11.2:  Downloading via HTTPS...
+2022-04-25T22:34:43 prefetch.2.11.2:  HTTPS download succeed
+2022-04-25T22:34:43 prefetch.2.11.2:   verifying 'SRR12532408'...
+2022-04-25T22:38:35 prefetch.2.11.2:  'SRR12532408' is valid
+2022-04-25T22:38:35 prefetch.2.11.2: 1) 'SRR12532408' was downloaded successfully
+2022-04-25T22:38:35 prefetch.2.11.2: 'SRR12532408' has 0 unresolved dependencies
+[bam_sort_core] merging from 400 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/SRR12532408.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/SRR12532408_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/SRR12532408_2.fastq’: No such file or directory
+2022-04-26T06:28:55 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-04-26T06:28:55 prefetch.2.11.2: 1) Downloading 'SRR5827421'...
+2022-04-26T06:28:55 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-04-26T06:28:55 prefetch.2.11.2:  Downloading via HTTPS...
+2022-04-26T06:45:21 prefetch.2.11.2:  HTTPS download succeed
+2022-04-26T06:45:21 prefetch.2.11.2:   verifying 'SRR5827421'...
+2022-04-26T06:49:02 prefetch.2.11.2:  'SRR5827421' is valid
+2022-04-26T06:49:02 prefetch.2.11.2: 1) 'SRR5827421' was downloaded successfully
+[bam_sort_core] merging from 208 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/SRR5827421.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/SRR5827421_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/SRR5827421_2.fastq’: No such file or directory
+2022-04-26T13:12:02 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-04-26T13:12:02 prefetch.2.11.2: 1) Downloading 'ERR4339391'...
+2022-04-26T13:12:02 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-04-26T13:12:02 prefetch.2.11.2:  Downloading via HTTPS...
+2022-04-26T13:22:16 prefetch.2.11.2:  HTTPS download succeed
+2022-04-26T13:22:16 prefetch.2.11.2:   verifying 'ERR4339391'...
+2022-04-26T13:25:35 prefetch.2.11.2:  'ERR4339391' is valid
+2022-04-26T13:25:35 prefetch.2.11.2: 1) 'ERR4339391' was downloaded successfully
+2022-04-26T13:25:35 prefetch.2.11.2: 'ERR4339391' has 0 unresolved dependencies
+[bam_sort_core] merging from 192 files and 16 in-memory blocks...
+rm: cannot remove ‘data/bams/ERR4339391.bam’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4339391_1.fastq’: No such file or directory
+rm: cannot remove ‘data/fastqs/ERR4339391_2.fastq’: No such file or directory
+2022-04-26T19:26:12 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-04-26T19:26:12 prefetch.2.11.2: 1) Downloading 'ERR4350083'...
+2022-04-26T19:26:12 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-04-26T19:26:12 prefetch.2.11.2:  Downloading via HTTPS...
+2022-04-26T19:34:40 prefetch.2.11.2:  HTTPS download succeed
+2022-04-26T19:34:40 prefetch.2.11.2:   verifying 'ERR4350083'...
+2022-04-26T19:37:04 prefetch.2.11.2:  'ERR4350083' is valid
+2022-04-26T19:37:04 prefetch.2.11.2: 1) 'ERR4350083' was downloaded successfully
+2022-04-26T19:37:04 prefetch.2.11.2: 'ERR4350083' has 0 unresolved dependencies
+slurmstepd: error: *** JOB 8264316 ON fijinode-50 CANCELLED AT 2022-04-26T14:49:16 ***

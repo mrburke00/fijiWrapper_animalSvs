@@ -10,6 +10,8 @@
 #SBATCH --output=/scratch/Shares/layer/workspace/devin_sra/sv_step/log_upload/slurm_upload_%j.out # Standard output and error log
 #SBATCH --error=/scratch/Shares/layer/workspace/devin_sra/sv_step/log_upload/slurm_upload_%j.err # %j inserts job number
 pwd; hostname; date
+du -sh /scratch/Shares/layer/projects/downs
+du -sh /scratch/Shares/layer/projects/tmp
 
 
 #aws s3 sync sv_results/data/ s3://layerlabcu/sra/horseshoe_bat/
@@ -19,7 +21,7 @@ pwd; hostname; date
 #prefetch SRR6508244
 #fastq-dump --split-files SRR6508244
 
-python sv_pipe/src/scripts/downloadS3.py
+#python sv_pipe/src/scripts/downloadS3.py
 
 
 date

@@ -1,0 +1,8 @@
+/scratch/Shares/layer/workspace/devin_sra/sv_step
+fijinode-20
+Thu May 19 14:13:16 MDT 2022
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/002/315/GCA_000002315.5_GRCg6a/GCA_000002315.5_GRCg6a_genomic.fna.gz
+/scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/chicken/ref
+[bwt_gen] Finished constructing BWT in 282 iterations.
+['/scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/chicken/ref/chicken.amb', '/scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/chicken/ref/chicken.ann', '/scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/chicken/ref/chicken.bwt', '/scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/chicken/ref/chicken.pac', '/scratch/Shares/layer/workspace/devin_sra/sv_step/sv_results/chicken/ref/chicken.sa']
+Thu May 19 14:37:36 MDT 2022

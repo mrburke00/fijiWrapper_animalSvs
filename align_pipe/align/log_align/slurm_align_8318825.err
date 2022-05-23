@@ -1,0 +1,9 @@
+2022-05-23T16:55:52 prefetch.2.11.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2022-05-23T16:55:52 prefetch.2.11.2: 1) Downloading 'ERR2486388'...
+2022-05-23T16:55:52 prefetch.2.11.2: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2022-05-23T16:55:52 prefetch.2.11.2:  Downloading via HTTPS...
+2022-05-23T16:55:56 prefetch.2.11.2:  HTTPS download succeed
+2022-05-23T16:55:57 prefetch.2.11.2:  'ERR2486388' is valid
+2022-05-23T16:55:57 prefetch.2.11.2: 1) 'ERR2486388' was downloaded successfully
+2022-05-23T16:55:57 prefetch.2.11.2: 'ERR2486388' has 0 unresolved dependencies
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
