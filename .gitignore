@@ -1,3 +1,8 @@
 sv_pipe/
 sv_results/
 .snakemake/
+archive/align_src/log_align/
+log_upload/
+archive/align_src/bwa_errors/
+align_pipe/align/log_align/
+align_pipe/align/bwa_errors/
