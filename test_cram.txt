@@ -1,2 +1,0 @@
-s3://1000genomes/1000G_2504_high_coverage/data/ERR3240178/HG00234.final.cram
-s3://1000genomes/1000G_2504_high_coverage/data/ERR3240178/HG00234.final.cram.crai
